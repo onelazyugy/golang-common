@@ -24,3 +24,8 @@ func Multiply(a int, b int) int {
 func MultiplyByTwo(a int, b int) int {
 	return (a * b) * 2
 }
+
+// DivideByTwo two number
+func DivideByTwo(a int, b int) int {
+	return (a / b) / 2
+}
