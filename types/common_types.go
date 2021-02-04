@@ -4,3 +4,8 @@ package types
 type Common struct {
 	Name string `json:"name"`
 }
+
+// GenericResponse generic response
+type GenericResponse struct {
+	Generic string `json:"generic"`
+}
