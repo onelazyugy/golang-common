@@ -14,3 +14,8 @@ func Subtract(a int, b int) int {
 func Divide(a int, b int) int {
 	return a / b
 }
+
+// Multiply two number
+func Multiply(a int, b int) int {
+	return a * b
+}
