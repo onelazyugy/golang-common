@@ -9,3 +9,8 @@ type Common struct {
 type GenericResponse struct {
 	Generic string `json:"generic"`
 }
+
+// Person a person
+type Person struct {
+	Age int `json:"age"`
+}
