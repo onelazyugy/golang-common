@@ -9,3 +9,8 @@ func Add(a int, b int) int {
 func Divide(a int, b int) int {
 	return a / b
 }
+
+//Multiply two numbers
+func Multiply(a int, b int) int {
+	return a * b
+}
