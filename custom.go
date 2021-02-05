@@ -29,3 +29,8 @@ func MultiplyByTwo(a int, b int) int {
 func DivideByTwo(a int, b int) int {
 	return (a / b) / 2
 }
+
+// AddByTwo two number plus 2
+func AddByTwo(a int, b int) int {
+	return (a + b) + 2
+}
