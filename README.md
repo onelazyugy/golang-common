@@ -8,23 +8,23 @@
 
 # TAG 
 - make code change
-- $ git add .
-- $ git commit -m "some commit message"
-- $ git push
-- $ git tag v1.0.3
-- $ git push --tags
+- `$ git add .`
+- `$ git commit -m "some commit message"`
+- `$ git push`
+- `$ git tag v1.0.3`
+- `$ git push --tags`
 - check github for latest release 
 
 # HOW TO USE THIS FROM INSIDE ANOTHER APP?
 - `$ go get -u github.com/onelazyugy/golang-common`
 - after that cmd, you would get something like below
-
-- get specific release version
-- $ go get github.com/onelazyugy/golang-common@v1.0.3
 ```
 go: downloading github.com/onelazyugy/golang-common v0.0.0-20210204213736-b0bd23d4e4aa
 go: github.com/onelazyugy/golang-common upgrade => v0.0.0-20210204213736-b0bd23d4e4aa
 ```
+- get specific released version
+- `$ go get github.com/onelazyugy/golang-common@v1.0.3`
+
 - sample `main.go` from the app that is using this package
 ```
 package main
